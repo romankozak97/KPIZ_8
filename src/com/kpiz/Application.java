@@ -84,7 +84,7 @@ public class Application extends JFrame implements TableModelListener {
         add(surface);
 
         // on "Save" button clicked
-        saveBtn.addActionListener(new ActionListener() {
+        /*saveBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // create a temporary image from canvas
@@ -117,7 +117,7 @@ public class Application extends JFrame implements TableModelListener {
                     x.printStackTrace();
                 }
             }
-        });
+        });*/
 
         // adjust frame properties
         setResizable(false);
